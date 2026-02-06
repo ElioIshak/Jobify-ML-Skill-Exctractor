@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts
+models/
+checkpoints/
+*.h5
+*.pt
+*.ckpt
+
+# Datasets
+data/
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
