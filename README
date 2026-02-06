@@ -15,6 +15,22 @@ The project combines a strong pretrained baseline with a custom fine-tuned model
 
 ---
 
+## Project Context
+
+This repository contains the **machine learning component** of a larger system that was originally designed to be part of a full-stack job-matching platform (**Jobify**).
+
+In the complete system design, the skill extraction pipeline was intended to be **connected to a backend and database** in order to store, index, and query extracted skills for downstream tasks such as matching and recommendations.
+
+For the purpose of this repository, the ML component is **decoupled and presented independently**:
+- No database connection is included here.
+- The focus is on model design, training, evaluation, and reproducibility.
+- Integration with a database and backend services is considered future work.
+
+This separation allows the ML pipeline to be reused, evaluated, and extended independently of system-level constraints.
+
+
+---
+
 ## Project Goals
 
 - Extract technical and professional skills from unstructured text (CVs, job descriptions)
