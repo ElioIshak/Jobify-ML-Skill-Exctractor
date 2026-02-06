@@ -130,10 +130,7 @@ ner("Experienced with Python, SQL, Docker, and FastAPI.")
   - identify skills missed by the NER model,
   - validate and enrich low-confidence extractions,
   - normalize extracted skills to standardized ESCO identifiers.
-
-- Connect the skill extraction pipeline to the **Jobify database** to persist,
-  index, and query extracted skills for downstream matching and analytics.
-
+  
 - Continue improving performance by **fine-tuning JobBERT base-cased** on
   domain-specific data and evaluating against the pretrained SkillNER baseline.
 
